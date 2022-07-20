@@ -1,0 +1,25 @@
+body{
+	
+	font-family:'Montserrat',sans-serif;
+	min-height:100vh;
+		background:liner(to top left,#E0FFFF,#87CEFA);
+	margin-left:40px;
+	background-image: linear-gradient(to right bottom, #a5d8ff, #228be6);
+}
+.maroon{
+	color:maroon;
+}
+.white{
+	color:white;
+	font-size:20px;
+}
+.container-about-grid{
+	display:grid;
+	grid-template-columns: repeat(2, 1fr);	
+}
+
+.btn-img{
+	border-radius:50px;
+	width:250px;
+	border:6px solid white;
+}
